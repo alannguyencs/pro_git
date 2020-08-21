@@ -10,7 +10,7 @@
  - Track all files: ```git add .```
  - Unstage a file: ```git reset <file_name>```
  - Unstage all files: ```git reset```
- - Commit changes: ```git commit - m "text a log message"```
+ - Commit changes: ```git commit - m "commit message"```
  - Remove unmodified files: ```git rm <file_name>```
  - Remove staging files: ```git rm -f <file_name>```. Be careful that the ```remove``` command will physically remove files in your disk.
  
@@ -24,4 +24,10 @@
  - Add a remote repository: ```git remote add <remote_name> <remote_url>```
  - Fetch data from a remote repository: ```git fetch <remote_name>```
  - Push committed data to a remote server: ```git push <remote_name> <branch>```
+ - Rename a remote: ```git remote rename <current_remote_name> <new_remote_name>```
+ - Remove a remote: ```git remote remove <remote_name>```
  
+## Tag
+Like most VCSs, Git has the ability to tag specific points in a repository's history as being important.
+ - List your tags: ```git tag```
+ - Create a tag: ```git tag -a v1.4 -m "tag message""```
