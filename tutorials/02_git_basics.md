@@ -33,3 +33,4 @@
 Like most VCSs, Git has the ability to tag specific points in a repository's history as being important.
  - List your tags: ```git tag```
  - Create a tag: ```git tag -a v1.4 -m "tag message"```
+ - Update tag to a new commit: ```git tag -fa v1.4 -m "tag message"```
