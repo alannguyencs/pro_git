@@ -12,7 +12,7 @@ commits along the project history. (master and testing) are two branches origina
  - Delete a branch: ```git branch -d <branch>```
  
  
-![version control](images/74_merge.png)<br>*Git merging.*
+![version control](images/74_merge.png)<br>*To merge branch (iss53) to (master).*
 ## Branches merging
 To merge branch (iss53) to (master), Git creates a new snapshot that combines (C4 and C5) and automatically
 creates a new commit (C6) that points to it. In case there is a conflict, you have to manually fix and commit it.
