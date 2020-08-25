@@ -8,6 +8,7 @@ commits along the project history. (master and testing) are two branches origina
  - Switch branch: ```git checkout <branch>```
  - Shorthand to create and switch to a new branch: ```git checkout -b <branch>```
  - Create a branch at a tag: ```git checkout -b <branch> <tag>```
+ - Create a branch at a commit: ```git checkout -b <branch> <commit>```
  - Delete a branch: ```git branch -d <branch>```
  
  
