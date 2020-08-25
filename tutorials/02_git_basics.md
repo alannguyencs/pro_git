@@ -11,7 +11,6 @@
  - Unstage a file: ```git reset <file_name>```
  - Unstage all files: ```git reset```
  - Commit changes: ```git commit - m "commit message"```
- - Commit changes: ```git commit -m "text a log message"```
  - Skip staging area: ```git commit -a -m "text a log message"```
  - Remove unmodified files: ```git rm <file_name>```
  - Remove staging files: ```git rm -f <file_name>```. Be careful that the ```remove``` command will physically remove files in your disk.
