@@ -13,7 +13,7 @@
  - Commit changes: ```git commit - m "commit message"```
  - Skip staging area: ```git commit -a -m "text a log message"```
  - Remove unmodified files: ```git rm <file_name>```
- - Remove staging files: ```git rm -f <file_name>```. Be careful that the ```remove``` command will physically remove files in your disk.
+ - Remove staging files: ```git rm -f <file_name>```. **Be careful** that the ```remove``` command will physically remove files in your disk.
  
 ## View the commit history
  - Show all: ```git log```
