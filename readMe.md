@@ -1,4 +1,6 @@
-This tutorial summarizes <b>[Pro Git](https://git-scm.com/book/en/v2)</b> written by Scott Chacon and Ben Straub.
+This tutorial:
+- summarizes <b>[Pro Git](https://git-scm.com/book/en/v2)</b> written by Scott Chacon and Ben Straub.
+- summarizes Git lecture provided by IBM on Coursera.
 
  # Config
   - Show config: `git config --list --show-origin`
