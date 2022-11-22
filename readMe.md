@@ -9,6 +9,9 @@ This tutorial:
     git config --global user.name alannguyencs
     git config --global user.email alannguyen.cs@gmail.com    
     ```
+  - Two ways to configuring Git to store/cache the password:
+     - store: `git config --global credential.helper store`
+     - cache: `git config --global credential.helper cache`
   - Help: `git help`
   
 # Git basics
